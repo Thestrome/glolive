@@ -1,0 +1,19 @@
+
+name: glolive
+description: A Soulchill style voice chat app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  agora_rtc_engine: ^5.1.0
+  flutter_facebook_auth: ^5.0.0
+  google_sign_in: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
